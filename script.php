@@ -29,9 +29,13 @@ if(isset($_POST['cep'])){
     echo"DDD: ".$_SESSION['ddd_r']."</br>";
     }    
     header('Location: inicio.php');
-}else{
-    echo"Digite o CEP!";
+}/*
+        'else' comentado as divisõe são feitas nas folhas de estilo agora...
+else{
+    echo"</br><hr>";
 }
+
+*/
 
 
 ?>
